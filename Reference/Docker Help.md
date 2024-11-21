@@ -37,3 +37,10 @@ Use this to **delete everything**:
 docker system prune -a --volumes
 ```
 
+# Minimal Dockerfile for Nginx
+
+```Dockerfile
+FROM nginx:alpine
+
+COPY public /usr/nginx/html
+```
