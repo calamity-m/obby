@@ -2,19 +2,19 @@ Category: [[Help]]
 Tags: #help #git #vcs
 # Config
 
-## show local
+## How do I show local config?
 
 ```
 git config --list --local
 ```
 
-## show global
+## How do I show global config?
 
 ```
 git config --list --global
 ```
 
-### set global
+### How do I set global username and email?
 
 ```
 git config --global user.name xyz
